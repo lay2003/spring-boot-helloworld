@@ -3,7 +3,7 @@ agent any
 stages{
 stage('git checkout'){
 steps{
-git credentialsId: 'git_credentials', url: 'https://github.com/ismail-09/Triang07.git'
+git credentialsId: 'git_credentials', url: 'https://github.com/lay2003/spring-boot-helloworld.git'
 }
 }
 }
